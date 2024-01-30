@@ -1,6 +1,7 @@
-# Table of Content
+# Table of Contents
 1. Creating and Dropping Temp Table
 2. Calculating Frequency and Distribution (%)
+3. Duplicate Records: Processing and Calculations
 
 
  Key Tasks and Commands
@@ -45,6 +46,12 @@ SELECT
 FROM dvd_rentals.film_list
 GROUP BY rating
 ORDER BY frequency DESC;
+```
+
+## 3. Duplicate Records: Processing and Calculations
+
+```sql
+
 ```
 
 ---
